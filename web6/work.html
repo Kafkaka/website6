@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+    <meta chartset="utf-8">
+    <title>180807027金成辉的个人网页</title>
+    <style>
+        @import url("main.css");
+        li{
+            list-style: none;
+            display:inline-block;
+            width:200px;
+            height:200px;
+            background-color: #f0f0f0;
+            border:2px solid grey;
+            padding-left:20px;
+            padding-top:0px;
+            font-weight: bolder;
+            margin-top:20px;
+        }
+        #works{
+            width:auto;
+            height:300px;
+            line-height: 2px;
+            background-color: lightblue;
+
+        }
+        img{
+            width:180px;
+            height:120px;
+
+        }
+
+        .p1{
+            color: #38618b;
+            font-family: "微软雅黑 Light";
+            text-align: left;
+            margin-top:10px;
+            margin-bottom: 0px;
+
+        }
+        .p2{
+            color: rgba(57, 95, 115, 0.81);
+            font-family: 仿宋;
+            padding-top: 0px;
+            margin-top:0px;
+            margin-bottom:0px;
+        }
+
+        #pic{
+            margin-right:0px;
+            background-color: transparent;
+        }
+
+
+
+        #map{
+            width:800px;
+            height:50px;
+            margin:100px 0 0 100px;
+
+        }
+
+
+        .li2{
+            list-style: none;
+            display:inline-block;
+            padding:0px;
+            width:40px;
+            height:40px;
+            margin-left: 5px;
+            background-image: url("images/bg.png");
+
+        }
+
+        #first{
+            background-position: -80px 0;
+        }
+
+        #second{
+            background-position: 0 -120px;
+        }
+
+        #third{
+            background-position: -80px -200px;
+        }
+
+        #fourth{
+            background-position: -80px -40px;
+        }
+
+        #fifth{
+            background-position: -80px -280px;
+        }
+
+
+
+        #pika{
+            margin:0px auto;
+            width:520px;
+            height:242px;
+            border:1px solid cadetblue;
+            position:center;
+            background-color: #c0f5ed;
+        }
+
+        .pipi{
+            display:inline-block;
+            list-style: none;
+            background-color: transparent;
+            margin-left:10px;
+            position:center;
+
+        }
+        #nodeco{
+            text-decoration: none;
+            margin-top:0px;
+        }
+
+        h3{
+            white-space: nowrap;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            line-height:32px;
+            margin-top:0px;
+            margin-bottom:0px;
+        }
+        h3 a{
+            font-size:14px;
+            color:lightslategrey;
+        }
+
+        #small{
+            width:10px;
+            height:10px;
+        }
+
+        .left,.right{
+            width:55px;
+            height:70px;
+            position:absolute;
+            background: url("images/pic3.png");
+            padding:0;
+            top:400px;
+        }
+        .left{
+            left:10px;
+            background-position: 0 -80px;
+        }
+        .right{
+            right:10px;
+            background-position: 0 -153px;
+        }
+        .left:hover,.right:hover{
+            background-color: rgba(0,0,0,0.3);
+        }
+        #deco{
+            background-color: black;
+            color:white;
+        }
+
+
+
+    </style>
+</head>
+
+<div>
+<body bgcolor='white' text="67493C">
+<a href="diary.html"><div class="left"></div></a>
+<a href="album.html"><div class="right"></div></a>
+<h1 align = "center"><big>欢迎光临我的博客</big></h1>
+
+<h4 align="middle"><a href = 'index2.html'>首页</a></h4>
+
+
+<h4 class="c1" align="middle"><a href = "about.html">关于我</a>
+    <a href = "diary.html">日志</a>
+    <a href = "work.html"id="deco">作品</a>
+    <a href = "album.html">相册</a>
+    <a href = "contact.html">联系</a></h4>
+
+<h2><a id="works">作品：</a></h2>
+<p><strong>图片中心新闻图</strong><br/>
+
+
+<ul id="works">
+    <li><p class="p1">升旗</p>
+<p class="p2">2018.10.27</p>
+<div id="pic"><img src="images/升旗.jpg" alt = "升旗"  title="升旗"width="400"></div></li>
+    <li><p class="p1">红船往事</p>
+        <p class="p2">2018.11.2</p>
+        <div id="pic"><img src="images/红船往事.jpg" alt = "红船往事"  title="红船往事"width="400"></div></li>
+    <li><p class="p1">音乐会</p>
+        <p class="p2">2018.11.27</p>
+        <div id="pic"><img src="images/音乐会.jpg" alt = "音乐会"  title="音乐会"width="400"></div></li>
+    <li><p class="p1">毕业照</p>
+        <p class="p2">2019.5.21</p>
+        <div id="pic"><img src="images/毕业照.jpg" alt = "毕业照"  title="毕业照"width="400"></div></li>
+
+</ul>
+</p>
+
+<p>使用精灵图实现的布局效果</p>
+<ul id="map">
+    <li class="li2" id="first"></li>
+    <li class="li2" id="second"></li>
+    <li class="li2" id="third"></li>
+    <li class="li2" id="fourth"></li>
+    <li class="li2" id="fifth"></li>
+</ul>
+<p>CSS常用属性效果</p>
+
+<ul id="pika">
+    <li class="pipi">
+        <a id="nodeco" href="">
+            <img src="images/pic1.jpg" alt="" width="200px" height="200px">
+        </a>
+        <h3>
+            <a href="">《西门子洗碗机》</a>
+        </h3>
+        <img id="small" src="images/play.png" alt="" height="10" width="10">
+
+
+
+    </li>
+    <li class="pipi">
+        <a id="nodeco" href="">
+            <img src="images/pic2.gif" alt="" width="200px" height="200px">
+        </a>
+        <h3>
+            <a href="">《到底工资怎么发》</a>
+
+        </h3>
+        <img id="small" src="images/play.png" alt="" height="10" width="10">
+    </li>
+
+
+
+</ul>
+
+
+
+
+
+</body>
+
+</div>
+<div class="copyright">CopyRight@copy2019</div>
+</html>
